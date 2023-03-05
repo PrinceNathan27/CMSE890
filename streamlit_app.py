@@ -11,7 +11,6 @@ st.write(
     """
 ## 📊 Time Series Forecasting Dashboard
 #### Upload your time series to see the prediction results.
-Developed and maintained by [Mohammad Namakshenas](https://www.linkedin.com/in/mohammad-namakshenas-20/)
 """
 )
 
