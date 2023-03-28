@@ -68,7 +68,7 @@ if uploaded_file:
     df_filtered_pred = df[(df['date'] >= slider_date_pred[0]) & (df['date'] <= slider_date_pred[1])]
 
     select_method = st.selectbox(
-        'What is your favorite tool?',
+        'Please select the model',
         ('Autoregressive (AR)', 'Moving Average (MA)', 'Mixed Autoregressive Moving Average (ARMA)',
          'Integration (ARIMA)'))
     if select_method == 'Autoregressive (AR)':
